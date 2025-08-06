@@ -9,10 +9,10 @@ from textblob import TextBlob
 import re
 import matplotlib.pyplot as plt
 
-# Load models and encoders
-model_path = "models/logistic_model_tuned.pkl"
-vectorizer_path = "models/tfidf_vectorizer_tuned.pkl"
-encoder_path = "models/domain_encoder_tuned.pkl"
+# Load models and encoders (Not Tuned Ver.)
+model_path = "models/best_logistic_model.pkl"
+vectorizer_path = "models/tfidf_vectorizer.pkl"
+encoder_path = "models/domain_encoder.pkl"
 
 model = joblib.load(model_path)
 vectorizer = joblib.load(vectorizer_path)
