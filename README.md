@@ -61,23 +61,19 @@ streamlit run app.py
 
 ## 📂 Project Structure
 
+```
 LLM_fake_news/
-├── models/
-├── output_graphs/
-│   ├── correlation/
-│   ├── bivariate/
-├── app.py
-├── requirements.txt
-├── fake_or_real.ipynb
-└── README.md
+├── data/               # Raw and processed datasets
+├── models/             # Trained models and scalers
+├── output_graphs/      # Visualizations and EDA outputs
+│   ├── correlation/    # Correlation heatmaps
+│   └── bivariate/      # Bivariate plots (boxplots, scatterplots, etc.)
+├── app.py              # Streamlit web app
+├── requirements.txt    # Python dependencies
+├── fake_or_real.ipynb  # Guide to retrain with your data
+└── README.md           # Project documentation
+```
 
-### Description
-data                    # Raw and processed datasets
-models                  # Trained models and scalers
-output_graphs           # Visualizations and EDA outputs
-app.py                  # Streamlit web app
-requirements.txt        # Python dependencies
-fake_or_real.ipynb      # Guide to retrain with your data
 
 ## 🧪 Train Your Own Model
 **To train a new model with your dataset:**
