@@ -10,7 +10,7 @@ import re
 import matplotlib.pyplot as plt
 
 # Load models and encoders (Not Tuned Ver.)
-model_path = "models/best_logistic_model.pkl"
+model_path = "models/logistic_model.pkl"
 vectorizer_path = "models/tfidf_vectorizer.pkl"
 encoder_path = "models/domain_encoder.pkl"
 
