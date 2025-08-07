@@ -3,7 +3,7 @@
 
 # 📰 Fake News Detection with LLM Features
 
-This repository contains an end-to-end machine learning pipeline for detecting fake news using traditional NLP features, metadata, and large language model (LLM)-derived features. It includes preprocessing, feature engineering, modeling, and a deployable Streamlit web app.
+This repository contains an end-to-end machine learning pipeline for detecting fake news using traditional NLP features, metadata, and large language model (LLM)-derived features. It includes preprocessing, feature engineering, modeling and a deployable Streamlit web app.
 
 ---
 
