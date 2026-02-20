@@ -1,13 +1,13 @@
-## ⚠️ Disclaimer
+##  Disclaimer
 > This application is strictly for educational and research purposes. It should not be used in any real-world or production setting to determine the authenticity of news without further validation and domain expertise.
 
-# 📰 Fake News Detection with LLM Features
+# Fake News Detection with LLM Features
 
 This repository contains an end-to-end machine learning pipeline for detecting fake news using traditional NLP features, metadata, and large language model (LLM)-derived features. It includes preprocessing, feature engineering, modeling and a deployable Streamlit web app.
 
 ---
 
-## 📊 Project Overview
+## Project Overview
 
 The goal is to classify news articles as **fake** or **real** using both text-based and metadata-based features. We use a combination of:
 
@@ -19,17 +19,17 @@ The goal is to classify news articles as **fake** or **real** using both text-ba
 
 ---
 
-## 🚀 Features
+##  Features
 
-- ✅ Data preprocessing and cleaning
-- ✅ Feature engineering (NLP + metadata)
-- ✅ Correlation and bivariate analysis
-- ✅ Model training and evaluation (Logistic Regression, Random Forest, etc.)
-- ✅ Web app for predictions using Streamlit
+- Data preprocessing and cleaning
+- Feature engineering (NLP + metadata)
+- Correlation and bivariate analysis
+- Model training and evaluation (Logistic Regression, Random Forest, etc.)
+  Web app for predictions using Streamlit
 
 ---
 
-## 🛠️ Technologies
+##  Technologies
 
 - Python 3.13
 - Pandas, NumPy, Matplotlib, Seaborn
@@ -39,7 +39,7 @@ The goal is to classify news articles as **fake** or **real** using both text-ba
 
 ---
 
-## 💻 Run Locally
+##  Run Locally
 
 ### 1. Clone the repo
 
@@ -59,7 +59,7 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 LLM_fake_news/
@@ -75,7 +75,7 @@ LLM_fake_news/
 ```
 
 
-## 🧪 Train Your Own Model
+##  Train Your Own Model
 **To train a new model with your dataset:**
 
 1. Prepare your dataset in CSV format. Use the sample datasets here for schema reference.
@@ -86,11 +86,11 @@ LLM_fake_news/
 
 4. Ensure your app loads the new model path.
 
-## 🌐 Deployed App
+##  Deployed App
 Access the live app:
-👉 [Click here to open the app](https://llm-fake-news.streamlit.app/).
+ [Click here to open the app](https://llm-fake-news.streamlit.app/).
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 This project was built under the guidance and mentorship of the 3MTT (Three Million Technical Talent) program by the National Information Technology Development Agency (NITDA), Nigeria.
 
 We sincerely appreciate NITDA and the Federal Ministry of Communications, Innovation and Digital Economy for the opportunity to learn, grow, and contribute to Nigeria’s digital transformation journey.
