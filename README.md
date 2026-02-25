@@ -88,7 +88,7 @@ LLM_fake_news/
 
 ##  Deployed App
 Access the live app:
- [Click here to open the app](https://llm-fake-news.streamlit.app/).
+ [Click here to open the app](https://llm-fake-or-real-news.streamlit.app/).
 
 ##  Acknowledgments
 This project was built under the guidance and mentorship of the 3MTT (Three Million Technical Talent) program by the National Information Technology Development Agency (NITDA), Nigeria.
